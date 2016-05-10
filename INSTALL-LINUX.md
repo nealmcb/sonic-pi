@@ -32,7 +32,9 @@ sudo apt-get update
 sudo apt-get install sonic-pi
 ````
 
-Then follow the instructions under **Generic Linux** to prepare for **running** it, noting the special steps needed for the `jackd` audio server rather than `pulseaudio`.  You can then run `sonic-pi` from the command line, or from the GUI menu.
+Then follow the instructions under **Generic Linux** and/or /usr/share/doc/sonic-pi/README-JACKD to prepare for **running** it, noting the special steps needed for using the `jackd` audio server rather than `pulseaudio`.
+
+You can then run `sonic-pi` from the command line, or from the GUI menu.
 
 If you run into issues with running `jackd`  along with `pulseaudio`, search the issues for `pulseaudio`, and/or help with the port of `supercollider` to be able to use `pulseaudio` as well as `jackd`.
 
